@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GTO Lab · Entrenador de Texas Hold'em</title>
+  <meta name="description" content="Entrenador offline de NLHE 6-max: spots GTO y explotadores, rangos preflop, equity y academia.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%23b38b3b'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='%231a140a'>♠</text></svg>">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand"><div class="brand-mark">♠</div><div><div class="brand-name">GTO Lab</div><div class="brand-sub">NLHE 6-max · 100bb</div></div></div>
+      <nav class="nav">
+        <a href="#/inicio" data-r="inicio"><span class="ico">◆</span>Inicio</a>
+        <a href="#/lab" data-r="lab"><span class="ico">♠</span>Laboratorio</a>
+        <a href="#/rapido" data-r="rapido"><span class="ico">⏱</span>Modo rápido</a>
+        <a href="#/rangos" data-r="rangos"><span class="ico">▦</span>Rangos preflop</a>
+        <a href="#/calc" data-r="calc"><span class="ico">%</span>Calculadora</a>
+        <a href="#/academia" data-r="academia"><span class="ico">✦</span>Academia</a>
+        <a href="#/progreso" data-r="progreso"><span class="ico">↗</span>Progreso</a>
+      </nav>
+      <div class="sidebar-foot">Funciona offline. Tus datos se guardan solo en este navegador.</div>
+    </aside>
+    <main class="main" id="view"></main>
+  </div>
+  <!-- Classic scripts (no ES modules) so file:// also works -->
+  <script src="js/cards.js"></script>
+  <script src="js/evaluator.js"></script>
+  <script src="data/ranges.js"></script>
+  <script src="data/spots_preflop.js"></script>
+  <script src="data/spots_flop.js"></script>
+  <script src="data/spots_turn.js"></script>
+  <script src="data/spots_river.js"></script>
+  <script src="data/lessons.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/table.js"></script>
+  <script src="js/trainer.js"></script>
+  <script src="js/ranges-view.js"></script>
+  <script src="js/calc.js"></script>
+  <script src="js/academy.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
