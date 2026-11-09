@@ -1,0 +1,14 @@
+{
+  "name": "GTO Lab · Entrenador de Texas Hold'em",
+  "short_name": "GTO Lab",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b0d0c",
+  "theme_color": "#0b0d0c",
+  "lang": "es",
+  "description": "Entrenador de NLHE 6-max: spots GTO y explotadores, rangos, equity y academia.",
+  "icons": [
+    { "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
